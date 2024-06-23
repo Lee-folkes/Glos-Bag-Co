@@ -58,8 +58,8 @@ listItem3.addEventListener('mouseout', () =>{
 // Swiper Functionality
 const swiper = new Swiper('.swiper', {
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next-unique',
+        prevEl: '.swiper-button-prev-unique',
       },
       pagination: {
         el: '.swiper-pagination',
@@ -75,7 +75,8 @@ const swiper = new Swiper('.swiper', {
       // when window width is >= 320px
       320: {
         slidesPerView: 1,
-        spaceBetween: 20
+        spaceBetween: 20,
+        
       },
       // when window width is >= 480px
       850: {

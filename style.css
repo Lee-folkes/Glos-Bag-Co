@@ -439,12 +439,20 @@ body {
   animation-timeline: scroll();
 }
 
-.swiper-button-next img,
-.swiper-button-prev img {
+.swiper-nav {
   position: relative;
-  min-width: 2rem;
-  top: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  
 }
+
+.swiper-button-next-unique, .swiper-button-prev-unique {
+  position: relative;
+  top: -13rem;
+  cursor: pointer;
+}
+
 
 .card {
   display: flex;
@@ -484,11 +492,11 @@ body {
   border-radius: 100vh;
 }
 
-@media(max-width: 1150px) {
+/* @media(max-width: 1150px) {
   .page_title {
     display: none;
   }
-}
+} */
 
 @media (max-width: 850px) {
   .hero {
@@ -522,6 +530,10 @@ body {
     font-size: 1rem;
     font-weight: var(--fw-bold);
     line-height: 1.5em;
+  }
+
+  .swiper-button-next-unique img, .swiper-button-prev-unique {
+    display: none;
   }
 
 }
