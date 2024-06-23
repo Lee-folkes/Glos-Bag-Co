@@ -175,7 +175,7 @@ body {
   position: sticky;
   top: 0;
   background-color: var(--clr-primary-900);
-  color: var(--clr-primary-900);
+  color: var(--clr-neutral-100);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -183,17 +183,22 @@ body {
   min-height: 5rem;
   z-index: 10;
   opacity: .9;
-  padding-inline: 2rem;
+  padding-right: 2rem;
   padding-top: 1rem;  
 }
 
 .page_title {
   display: flex;
-  text-align: center;
-  align-items: center;
+  /* text-align: center ; */
+  /* align-self: baseline; */
   color: var(--clr-neutral-100);
-  font-family: var(--ff-body);
+  font-size: 0.8rem;
 }
+
+.page_heading {
+  align-self: flex-end;
+}
+
 
 .logo {
   /* min-width: 40rem; */
@@ -202,7 +207,10 @@ body {
   display: flex;
   align-items: center;
   padding-block: .5rem;
-  gap: 1rem;
+  gap: 2rem;
+  /* background-color: var(--clr-accent-600); */
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .logo img{
@@ -309,7 +317,7 @@ body {
   color: var(--clr-neutral-100);
   min-width: 65dvw;
   min-height: 55dvh;
-  background-image: url(./img/Hero_BG_2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url(./img/Hero_BG_2.jpg);
   background-size: cover;
   border-radius: 1rem;
 
@@ -343,7 +351,7 @@ body {
 .hero_text {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(#4d4d4d69,#e6e6e600);
+  /* background: linear-gradient(#4d4d4d69,#e6e6e600); */
   gap: 1rem;
   border-radius: 1rem;
   max-width: 30rem;
