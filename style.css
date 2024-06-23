@@ -191,7 +191,7 @@ body {
   display: flex;
   /* text-align: center ; */
   /* align-self: baseline; */
-  color: var(--clr-neutral-100);
+  color: var(--clr-primary-900);
   font-size: 0.8rem;
 }
 
@@ -208,7 +208,7 @@ body {
   align-items: center;
   padding-block: .5rem;
   gap: 2rem;
-  /* background-color: var(--clr-accent-600); */
+  background-color: var(--clr-accent-600);
   padding-left: 1rem;
   padding-right: 1rem;
 }
