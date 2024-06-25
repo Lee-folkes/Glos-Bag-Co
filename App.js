@@ -23,32 +23,32 @@ navToggle.addEventListener('click', () => {
 listItem1.addEventListener('mouseover', () =>{
   
   menuIcon1.setAttribute('animation','tada');
-  menuIcon1.setAttribute('color','#FFA436');
+  // menuIcon1.setAttribute('color','#FFA436');
 })
 listItem1.addEventListener('mouseout', () =>{
   
   menuIcon1.setAttribute('animation','');
-  menuIcon1.setAttribute('color','#573535');
+  // menuIcon1.setAttribute('color','#573535');
 })
 listItem2.addEventListener('mouseover', () =>{
   
   menuIcon2.setAttribute('animation','tada');
-  menuIcon2.setAttribute('color','#FFA436');
+  // menuIcon2.setAttribute('color','#FFA436');
 })
 listItem2.addEventListener('mouseout', () =>{
   
   menuIcon2.setAttribute('animation','');
-  menuIcon2.setAttribute('color','#573535');
+  // menuIcon2.setAttribute('color','#573535');
 })
 listItem3.addEventListener('mouseover', () =>{
   
   menuIcon3.setAttribute('animation','tada');
-  menuIcon3.setAttribute('color','#FFA436');
+  // menuIcon3.setAttribute('color','#FFA436');
 })
 listItem3.addEventListener('mouseout', () =>{
   
   menuIcon3.setAttribute('animation','');
-  menuIcon3.setAttribute('color','#573535');
+  // menuIcon3.setAttribute('color','#573535');
 })
 
 
@@ -58,8 +58,8 @@ listItem3.addEventListener('mouseout', () =>{
 // Swiper Functionality
 const swiper = new Swiper('.swiper', {
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next-unique',
+        prevEl: '.swiper-button-prev-unique',
       },
       pagination: {
         el: '.swiper-pagination',
@@ -68,13 +68,15 @@ const swiper = new Swiper('.swiper', {
     slidesPerView: 1,
     spaceBetween: 10,
     grabCursor: true,
+    centeredSlides: false,
 
     // Responsive breakpoints
     breakpoints: {
       // when window width is >= 320px
       320: {
         slidesPerView: 1,
-        spaceBetween: 20
+        spaceBetween: 20,
+        
       },
       // when window width is >= 480px
       850: {

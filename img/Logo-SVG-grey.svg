@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1016.74 353.23">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: BookmanOldStyle, 'Bookman Old Style';
+        font-size: 336.13px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #4d4d4d;
+      }
+
+      .cls-2 {
+        font-family: BookmanOldStyle-Bold, 'Bookman Old Style';
+        font-size: 75.57px;
+        font-weight: 700;
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(-.86 236.98) scale(1.47 1)"><tspan x="0" y="0">G</tspan></text>
+  <text class="cls-1" transform="translate(641.6 241.05) scale(1.47 1)"><tspan x="0" y="0">C</tspan></text>
+  <text class="cls-1" transform="translate(330.67 241.05) scale(1.47 1)"><tspan x="0" y="0">B</tspan></text>
+  <text class="cls-2" transform="translate(-.13 335.9) scale(.98 1)"><tspan x="0" y="0" xml:space="preserve">Gloucester  Bag  Company</tspan></text>
+</svg>
