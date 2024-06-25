@@ -240,6 +240,11 @@ body {
   /* max-width: 40rem; */
 }
 
+
+.nav_items a:visited {
+  color: var(--clr-neutral-100);
+  text-decoration: none;
+}
 .nav_items li:hover {
   color: var(--clr-accent-600);
 }
@@ -468,6 +473,13 @@ body {
   color: var(--clr-neutral-100);
 }
 
+.test_subheading{
+  color: var(--clr-accent-600);
+  font-size: 1.2rem;
+  font-weight: var(--fw-bold);
+
+}
+
 .about_heading h3 {
   font-size: 3rem;
   color: var(--clr-neutral-100);
@@ -587,8 +599,8 @@ body {
     line-height: 1.5em;
   }
 
-  .swiper-button-next-unique img, .swiper-button-prev-unique {
+  /* .swiper-button-next-unique img, .swiper-button-prev-unique {
     display: none;
-  }
+  } */
 
 }
