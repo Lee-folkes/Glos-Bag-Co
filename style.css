@@ -101,7 +101,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  /* margin-inline: 2rem; */
 }
 
 /* A elements that don't have a class get default styles */
@@ -153,6 +152,11 @@ body {
   background-color: var(--clr-primary-900);
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .sr-only {
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
@@ -193,7 +197,6 @@ body {
 .page_title {
   display: flex;
   text-align: center ;
-  /* align-self: baseline; */
   font-size: 1.5rem;
   color: var(--clr-neutral-100);
   justify-content: center;
@@ -209,9 +212,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-block: 0.6rem;
-  /* gap: 2rem; */
   background-color: var(--clr-accent-600);
-  /* padding-left: 8rem; */
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -237,7 +238,6 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  /* max-width: 40rem; */
 }
 
 .nav_items li:hover {
@@ -278,11 +278,6 @@ body {
   .mobile_nav_toggle[aria-expanded='true'] {
     background: url(./img/x-regular-24.png);
   }
-
-  /* .logo {
-    min-width: 20vw;
-  } */
-
 }
 
 /* Hero Section */

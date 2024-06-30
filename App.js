@@ -4,9 +4,11 @@ const navToggle = document.querySelector('.mobile_nav_toggle');
 const menuIcon1 = document.querySelector('.menu_icon1');
 const menuIcon2 = document.querySelector('.menu_icon2');
 const menuIcon3 = document.querySelector('.menu_icon3');
+const menuIcon4 = document.querySelector('.menu_icon4');
 const listItem1 = document.querySelector('.list_item1');
 const listItem2 = document.querySelector('.list_item2');
 const listItem3 = document.querySelector('.list_item3');
+const listItem4 = document.querySelector('.list_item4');
 
 navToggle.addEventListener('click', () => {
   const visibility = primaryNav.getAttribute('data-visible')
@@ -48,6 +50,16 @@ listItem3.addEventListener('mouseover', () =>{
 listItem3.addEventListener('mouseout', () =>{
   
   menuIcon3.setAttribute('animation','');
+  // menuIcon3.setAttribute('color','#573535');
+})
+listItem4.addEventListener('mouseover', () =>{
+  
+  menuIcon4.setAttribute('animation','tada');
+  // menuIcon3.setAttribute('color','#FFA436');
+})
+listItem4.addEventListener('mouseout', () =>{
+  
+  menuIcon4.setAttribute('animation','');
   // menuIcon3.setAttribute('color','#573535');
 })
 
